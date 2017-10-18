@@ -1,0 +1,25 @@
+//Programa factorial.
+//Autor: Braian Adair Maldonado Luna
+//Fecha: 18 de octubre de 2017
+// Programa interactivo.
+#include <iostream> //Leer e imprimir
+using namespace std;
+
+int main()
+{
+    int N=0;
+    cout<<"Dame un numero entero"<<endl; //Para interactuar con el usuario, mostrar algún dato
+	cin>>N;
+	
+	int M=1;
+	int F=1;
+
+	 /*En loops: Condición antes es un for, condición después es un while.While es un proceso recursivo. El signo ! simboliza que no se cumpla. == Para comparar.*/
+	while (M!=N){ 
+	M=M+1;
+	F=F*M;
+	}
+
+cout<<"Valor final "<<F<<endl;
+return 0;
+}
