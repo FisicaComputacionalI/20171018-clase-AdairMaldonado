@@ -1,0 +1,21 @@
+// Programa que suma los numeros pares en el intervalo [1,20]
+//Autor: Braian Adair Maldonado Luna.
+//Fecha: 18 de octubre del 2017.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int sum=0;
+	int count=1;
+	
+	while (count<=20){
+	if((count %2)==0){	
+	sum=sum+count;
+	}
+	count++;
+	}
+cout<<sum<<endl;
+return 0;
+}
